@@ -1,0 +1,46 @@
+@media only screen and (min-width:360px) {
+    .text{
+        font-size: 50px;
+        font-style: italic;
+        color: blue;
+
+    }
+    .image{
+        width:100px;
+        height:100px;
+    }
+    form .btn{
+        background-color: blue;
+    }
+}
+@media only screen and (min-width:720px) {
+    .text{
+    font-size:100px;
+    font-style: bold;
+    color: aqua;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    form .btn{
+        background-color:green ;
+
+    }
+}
+@media only screen and (min-width:1024px) {
+    .text{
+        font-size: 150px;
+        font-style: italic;
+        color: blanchedalmond;
+    }
+    .image{
+        width: 500px;
+        height: 500px;
+    }
+    form .btn{
+        background-color:red ;
+    }
+}
+
+
